@@ -1,8 +1,27 @@
 
-img {
-	Position: absolute;
-    align-content: center;
-	top: auto;
-    left: 20%;
+body{
+    background-image: url(/img/background/green_cup.png);
+    line-height: 1.6;
+    color: midnightblue;
+    font-size: 1.1em;
+    font-family: 'Courgette', cursive;
+}
+
+.wrapper{
+    width: %70;
+    margin: 0 auto
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+</style>
+
+navagtion {
+   font-family: 'Source Sans Pro', sans-serif;
+ 
     
 }
+
