@@ -1,5 +1,50 @@
-.navigation {
+body{
+	background-image: url(../img/background/binding_dark/binding_dark.png);
+	text-align: center
+}
+
+.Home-image {
 	align-content: center;
-	display: inline-block;
+	margin-top: 3em;
+	
+}
+
+h1 {
+	font-size: 2em ;
+	color: teal;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	Background-color: white;
+
+	
+}
+
+.navigation {
 	float: right;
+	Background-color: white;
+
+}
+
+a:link {
+	color: teal;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+a:hover {
+	color: rebeccapurple;
+}
+
+a:active {
+	color:lightcoral;
+}
+
+a:focus {
+	color: white;
+	background-color: rebeccapurple;
 }
