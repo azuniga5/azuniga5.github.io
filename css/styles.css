@@ -28,6 +28,15 @@ h1 {
 
 }
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
+
+h2, p2 {
+	font-family: 'Open Sans', sans-serif;
+	border-bottom-style: dashed;
+}
+
 a:link {
 	color: teal;
 }
