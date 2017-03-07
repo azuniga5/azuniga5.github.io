@@ -6,20 +6,31 @@ body{
 .Home-image {
 	align-content: center;
 	margin-top: 3em;
-	
+	width: 100%;
+	height: 100%;
 }
 
 h1 {
 	font-size: 2em ;
 	color: teal;
 	float: left;
+	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 5px;
 	margin-right: 5px;
-	margin-left: 5px;
+	margin-left: 0px;
 	Background-color: white;
+}
+h2 {
+	font-size: 1.5em;
+	margin-top: 10px auto;
+	justify-content: center;
+	background: white;
+	width: 120pxpx;	
+}
 
-	
+p 	{
+	font-size: 1em;
 }
 
 .navigation {
@@ -28,14 +39,6 @@ h1 {
 
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-</style>
-
-h2, p2 {
-	font-family: 'Open Sans', sans-serif;
-	border-bottom-style: dashed;
-}
 
 a:link {
 	color: teal;
@@ -56,4 +59,38 @@ a:active {
 a:focus {
 	color: white;
 	background-color: rebeccapurple;
+}
+
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: url(../img/background/binding_dark/binding_dark.png);
+       content: "Mobile Size";
+  }
+  
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  body {
+    background: url(../img/background/binding_dark/binding_dark.png); /* fallback for old browsers */
+ 	background: url(../img/background/binding_dark/binding_dark.png); /* Chrome 10-25, Safari 5.1-6 */
+	background: url(../img/background/binding_dark/binding_dark.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  }
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: url(../img/background/binding_dark/binding_dark.png);
+       content: "Tablet Size";
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: url(../img/background/binding_dark/binding_dark.png);
+       content: "Desktop Size";
+  }
+
 }
