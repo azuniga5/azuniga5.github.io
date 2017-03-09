@@ -1,25 +1,31 @@
 body{
-	background-image: url(../img/background/binding_dark/binding_dark.png);
-	text-align: center
+	background-color:white;
 }
 
 .Home-image {
 	display: block;
-	margin-top: 3em;
-	justify-content: space-between;
+	margin: auto 150px auto 450px;
+	width: 25%;
+	height: 25%;
+
 }
 
 h1 {
-	font-size: 2em ;
-	color: teal;
+	font-size: 2.5em ;
+	color: white;
 	float: left;
-	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 5px;
-	margin-right: 5px;
-	margin-left: 0px;
-	Background-color: white;
+	margin: 120px auto 5px 450px;
+	Background-color: teal;
+	width: 100em;
+	height: 2em;
 }
+.navigation {
+	float: right;
+	margin: -50px auto 150px auto;
+	Background-color: white;
+	
+}
+
 h2 {
 	font-size: 1.5em;
 	margin-top: 10px auto;
@@ -30,12 +36,6 @@ h2 {
 
 p 	{
 	font-size: 1em;
-}
-
-.navigation {
-	float: right;
-	Background-color: white;
-
 }
 
 
@@ -60,36 +60,3 @@ a:focus {
 	background-color: rebeccapurple;
 }
 
-
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: url(../img/background/binding_dark/binding_dark.png);
-       content: "Mobile Size";
-  }
-  
-/* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
-
-  body {
-    background: url(../img/background/binding_dark/binding_dark.png); /* fallback for old browsers */
- 	background: url(../img/background/binding_dark/binding_dark.png); /* Chrome 10-25, Safari 5.1-6 */
-	background: url(../img/background/binding_dark/binding_dark.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  }
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: url(../img/background/binding_dark/binding_dark.png);
-       content: "Tablet Size";
-  }
-
-}
-
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: url(../img/background/binding_dark/binding_dark.png);
-       content: "Desktop Size";
-  }
-
-}
