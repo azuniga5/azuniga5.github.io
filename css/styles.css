@@ -1,41 +1,48 @@
 body{
-	background-color:white;
+background-image: url(../img/Background/navy_blue/navy_blue.png);
 }
 
 .Home-image {
 	display: block;
-	margin: auto 150px auto 450px;
-	width: 25%;
-	height: 25%;
+	margin: 100px auto auto 545px;
+	width: 20%;
+	height: 20%;
 
 }
-
 h1 {
 	font-size: 2.5em ;
-	color: white;
-	float: left;
-	margin: 120px auto 5px 450px;
-	Background-color: teal;
-	width: 100em;
-	height: 2em;
-}
-.navigation {
-	float: right;
-	margin: -50px auto 150px auto;
-	Background-color: white;
-	
-}
+	text-align: center;
+	background-color: teal;
+	color: black ;
+	display: block;
+	padding: auto auto auto auto;
+	margin: 50px auto -50px auto;
+	width: 1365px;
 
-h2 {
-	font-size: 1.5em;
-	margin-top: 10px auto;
-	justify-content: space-around;
+}
+.about{
+	font-size: 1em;
+	text-align: center;
+	display: block;
+	padding: 10px 10px 85px 550px;
+	margin: -325px 525px auto 510px;
 	background: white;
-	width: 120px;	
+	width: 800px;	
+	height: 250px;
 }
 
 p 	{
 	font-size: 1em;
+	text-align: left;
+	
+}
+
+
+.navigation {
+	justify-content: center;
+	align-items: flex-end;
+	Background-color: none;
+	
 }
 
 
