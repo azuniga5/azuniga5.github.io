@@ -33,6 +33,7 @@ h1 {
 
 p 	{
 	font-size: 1em;
+	float: right;
 	text-align: left;
 	margin: auto auto auto auto;
 	width: 800px;	
