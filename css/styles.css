@@ -1,53 +1,69 @@
+header {
+  background-image: url(../img/Background/paper_1/paper_1.png);
+  height: 75px;
+  width: 100%;
+  
+  position: fixed;
+  top: -50px;
+  
+  transition: top .20s ease-in-out;
+}
+
+header:hover {
+  background: #D0D4E0;
+  position: fixed;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+
 body{
-background-image: url(../img/Background/navy_blue/navy_blue.png);
+    background-image: url(../img/Background/navy_blue/navy_blue.png);
 }
 
 .Home-image {
 	display: block;
-	margin: 100px auto auto 545px;
+	margin: 0 auto;
 	width: 20%;
 	height: 20%;
-
 }
+
 h1 {
-	font-size: 2.5em ;
+	font-size: 3.5em ;
 	text-align: center;
-	background-color: teal;
-	color: black ;
+	color: white; 
 	display: block;
-	padding: auto auto auto auto;
-	margin: 50px auto -50px auto;
-	width: 1365px;
+	padding: 10px 10px;
+	margin: 50px auto;
+	width: 2000px;
 
 }
 .about{
-	font-size: 1em;
-	text-align: center;
-	display: block;
-	padding: 10px 10px 85px 550px;
-	margin: -325px 525px auto 510px;
-	background: white;
-	width: 800px;	
-	height: 250px;
+	font-size: 1em; 
+    background-image: url(../img/Background/paper_1/paper_1.png);
+   
+	
+}
+
+h2 {
+    text-align: center;
+    
 }
 
 p 	{
 	font-size: 1em;
-	float: right;
 	text-align: left;
 	margin: auto auto auto auto;
-	width: 800px;	
+	width: 500px;	
 	height: 250px;
 	
 }
 
 
-.navigation {
-	justify-content: center;
-	align-items: flex-end;
-	Background-color: none;
-	
-}
 
 
 a:link {
@@ -55,11 +71,11 @@ a:link {
 }
 
 a:visited {
-	color: lightblue;
+	color: blue;
 }
 
 a:hover {
-	color: rebeccapurple;
+	color: purple;
 }
 
 a:active {
@@ -70,4 +86,134 @@ a:focus {
 	color: white;
 	background-color: rebeccapurple;
 }
+
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+
+}
+
+
+
+/* Portfolio Css*/
+figure {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  padding .5em;
+  width:200px;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/* Contact Me*/
+
+/* https://fonts.google.com/specimen/Baloo+Bhaina */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+h3{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+
+/* Attribute Selection */
+form {
+  background: white;
+  padding: 1em;
+  width: 50%;
+}
+
+input {
+  display: block;
+    
+}
+
+input[type="text"] {
+  background: #333;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  margin: 1em 1em 1em 0;
+  padding: .5em;
+}
+
+input[type="text"]:focus {
+    
+  /*  override  */
+  outline: 0;
+  background: orange;
+}
+
+label {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 2em;
+    
+}
+
+form {
+/*   display: flex;
+  flex-wrap: wrap; */
+
+}
+
+input[type="submit"] {
+  background: ;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+
+  
+/*   position: absolute;
+  left: 125px;
+   */
+
+  display: block;
+  margin: 0 auto; 
+  
+  
+  
+/*  Figure Out
+  align-self: center; */
+}
+
+input[type="submit"] {
+  /*Override*/
+  
+}
+
 
