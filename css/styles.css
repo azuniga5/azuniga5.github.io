@@ -15,12 +15,15 @@ header:hover {
   top: 0;
 }
 
-header h1 {
-  margin: 0;
-  text-align: center;
+.fixed-bottom-nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: black;
 }
-
-
 body{
     background-image: url(../img/Background/navy_blue/navy_blue.png);
 }
@@ -39,18 +42,20 @@ h1 {
 	display: block;
 	padding: 10px 10px;
 	margin: 50px auto;
-	width: 2000px;
 
 }
 .about{
-	font-size: 1em; 
-    background-image: url(../img/Background/paper_1/paper_1.png);
-   
-	
+    background-image: url(../img/Background/paper_1/paper_1.png);	
 }
 
 h2 {
     text-align: center;
+    margin: 25px auto;
+}
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5em;
     
 }
 
@@ -149,6 +154,7 @@ h3{
     color: white;
     text-align: center;
     width: 70%;
+    margin: 35px auto;
 }
 
 /* Attribute Selection */
@@ -156,15 +162,17 @@ form {
   background: white;
   padding: 1em;
   width: 50%;
+  margin: 0 auto;
+  padding-top: 0px auto;
+
 }
 
 input {
   display: block;
-    
 }
 
 input[type="text"] {
-  background: #333;
+  background: gray;
   border: 0;
   border-radius: 10px;
   color: #fff;
@@ -192,7 +200,6 @@ form {
 }
 
 input[type="submit"] {
-  background: ;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -213,6 +220,8 @@ input[type="submit"] {
 
 input[type="submit"] {
   /*Override*/
+    background: black;
+    color: white;
   
 }
 
