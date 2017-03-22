@@ -1,5 +1,4 @@
 
-
 header {
   background-color: #786D7F;
   height: 75px;
@@ -21,7 +20,7 @@ header:hover {
   position: fixed;
   background-color: #78657F;
   bottom: 0;
-  left: 0;
+  left: auto;
   z-index: 9999;
   width: 100%;
   height: 50px;
@@ -43,7 +42,7 @@ body{
 
 .Home-image {
 	display: block;
-	margin: 0 auto 25px auto;
+	margin: 60px auto 0 auto;
     border-radius: 80px 80px 80px 80px;
 	width: 40%;
 	height: 40%;
@@ -59,12 +58,13 @@ body{
 }
 
 h1 {
-	font-size: 4em ;
+	font-size: 4.2em ;
+    text-shadow: 2px 2px 2px, 4px 4px 10px purple;
 	text-align: center;
 	color: #8DBFAC; 
 	display: block;
 	padding: 10px 10px;
-	margin: 40px auto;
+	margin: 10px auto 20px auto;
 
 }
 .about{
@@ -156,7 +156,6 @@ a:focus {
 }
 
 
-
 figure {
   background: #333;
   border-radius: 5px;
@@ -173,7 +172,6 @@ main{
 figure:hover {
     background-color: #786D7F;
 }
-
 
 
 /* Contact Me*/
