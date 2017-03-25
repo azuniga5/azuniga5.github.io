@@ -39,7 +39,7 @@ a {
 
 
 body{
-    background-image: url(/img/texture.png);
+    background-image: url(/img/Background/paper_1/paper_1.png);
 }
 .logo {
     display: block;
@@ -69,10 +69,8 @@ body{
 h1 {
 	font-size: 4em ;
     font-family: 'Source Sans Pro', sans-serif;
-
-    text-shadow: 2px 2px 2px, 4px 4px 10px purple;
 	text-align: center;
-	color: #8DBFAC; 
+	color: dimgray; 
 	display: block;
 	padding: 10px 10px;
 	margin: 30px auto 20px auto;
@@ -142,7 +140,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-image: url(/img/texture.png) ;
+    background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Mobile Size";
   }
   
@@ -153,7 +151,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-image: url(/img/texture.png) ;
+       background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Tablet Size";
   }
 
@@ -164,7 +162,7 @@ a:active {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-image: url(/img/texture.png) ;
+       background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Desktop Size";
   }
 
