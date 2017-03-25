@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro');
 
 header {
-  background-color: black;
+  background-color:black;
   height: 75px;
   flex-wrap: wrap;
   width: 100%;
@@ -40,7 +40,8 @@ a {
 
 
 body{
-    background-color:white;
+      background-image: url(/img/Background/paper_1/paper_1.png);
+
 }
 .logo {
     display: block;
@@ -88,7 +89,7 @@ h2 {
     text-align: center;
     letter-spacing: 5px;
 
-    font-size: 1.8em;
+    font-size: 2em;
     font-family: 'Lora', serif;
     font-weight: bold;
     margin: 5px auto;
@@ -96,10 +97,12 @@ h2 {
     padding: .5em;
 }
 h3 {
-    text-align: center;
+    text-align: left;
     letter-spacing: 3px;
-    margin: 0 auto;
-    font-size: 2.5em;
+    display: block;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    font-size: 1.5em;
     padding: .2em;
     
 }
@@ -114,11 +117,14 @@ p 	{
     line-height: 25px;
     word-spacing: .5px;
 	text-align: left;
-	margin: 0px auto;
+	margin: 0px auto ;
 	max-width:  950px;	
     padding: 1em;
+}
 
-	
+.resume {
+    padding: 5px;
+    margin: 0 auto 100px auto;
 }
 
 
@@ -145,7 +151,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-    background-color: white;
+      background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Mobile Size";
   }
   
@@ -156,7 +162,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-color: white;
+      background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Tablet Size";
   }
 
@@ -167,7 +173,7 @@ a:active {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-color:white;
+      background-image: url(/img/Background/paper_1/paper_1.png);
        content: "Desktop Size";
   }
 
