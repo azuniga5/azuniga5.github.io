@@ -3,6 +3,7 @@
 header {
   background-color: #5F8DBF;
   height: 75px;
+  flex-wrap: wrap;
   width: 100%;
   min-width:50%;
   height: 4em;
@@ -47,7 +48,7 @@ body{
 
 .Home-image {
 	display: block;
-	margin: 50px auto 0 auto;
+	margin: 0px auto;
 	width: 100%;
 	height: auto;
 }
@@ -70,12 +71,12 @@ h1 {
 	color: #8DBFAC; 
 	display: block;
 	padding: 10px 10px;
-	margin: 10px auto 20px auto;
+	margin: 30px auto 20px auto;
 
 }
 .about{
-  background-color: white;
-  margin: 0 auto ;
+  background-color: transparent;
+  margin: 50px auto ;
    
 }
 
@@ -85,7 +86,7 @@ h2 {
     font-family: 'Lora', serif;
     font-weight: bold;
     margin: 5px auto;
-    color: 2F4039;
+    color: white;
     padding: .5em;
 }
 h3 {
@@ -99,7 +100,7 @@ h3 {
 
 p 	{
 	font-size: 1.2em;
-    color: #2F4039;
+    color: white;
     
     font-family: 'Lora', serif;
     letter-spacing: 1.5px;
