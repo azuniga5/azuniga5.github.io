@@ -4,11 +4,20 @@ header {
   background-color: #5F8DBF;
   height: 75px;
   width: 100%;
-  
-  position: fixed;
-  top: -50px;
-  transition: top .20s ease-in-out;
+  min-width:50%;
+  height: 4em;
+  position:relative; 
+  margin: -20px auto;
 }
+
+a {
+    float: inline-block;
+    justify-content: flex-end;
+    min-width: 1em;
+    margin: 0;
+    padding: 10px;
+}
+
 
 }
 
@@ -39,8 +48,8 @@ body{
 .Home-image {
 	display: block;
 	margin: 50px auto 0 auto;
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: auto;
 }
 
 .icon {
