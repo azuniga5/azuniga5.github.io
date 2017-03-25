@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro');
 
 header {
-  background-color: #786D7F;
+  background-color: black;
   height: 75px;
   flex-wrap: wrap;
   width: 100%;
@@ -10,8 +10,7 @@ header {
   position:relative; 
   margin: -20px auto;
 }
-.icon{
-}
+
 a {
     float: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
@@ -32,14 +31,14 @@ a {
   z-index: 9999;
   width: 100%;
   height: 20px;
-  background-color: #786D7F ;
+  background-color: black ;
 }
   
 }
 
 
 body{
-    background-image: url(/img/Background/paper_1/paper_1.png);
+    background-color:white;
 }
 .logo {
     display: block;
@@ -140,7 +139,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-    background-image: url(/img/Background/paper_1/paper_1.png);
+    background-color: white;
        content: "Mobile Size";
   }
   
@@ -151,7 +150,7 @@ a:active {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-image: url(/img/Background/paper_1/paper_1.png);
+       background-color: white;
        content: "Tablet Size";
   }
 
@@ -162,7 +161,7 @@ a:active {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background-image: url(/img/Background/paper_1/paper_1.png);
+       background-color:white;
        content: "Desktop Size";
   }
 
@@ -171,9 +170,9 @@ a:active {
 /*Portfolio*/
 
 figure {
-  background: #333;
+  background-color: beige;
   border-radius: 5px;
-  color: white;
+  color: blac;
   font-family: 'Lora', serif;
   text-align: center;
   padding .5em;
