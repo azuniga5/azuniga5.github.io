@@ -39,7 +39,7 @@ a {
 
 
 body{
-    background-image: url(/img/Background/navy_blue/);
+    background-image: url(/img/texture.png);
 }
 .logo {
     display: block;
@@ -111,7 +111,7 @@ p 	{
     line-height: 25px;
     word-spacing: .5px;
 	text-align: left;
-	margin: 10px auto;
+	margin: 0px auto;
 	max-width:  950px;	
     padding: 1em;
 
