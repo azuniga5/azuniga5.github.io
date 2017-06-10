@@ -88,23 +88,6 @@ transform: rotate(0deg);
 }---*/
 
 
-.logo {
-    display: block;
-    padding: .5px;
-    width: auto;
-	height: auto;
-    margin: o auto;
-    max-height: 50px;
-}
-
-
-.icon {
-    position: block;
-    width: 5%;  
-    height: 5%;
-    margin: 10px auto 1.5px auto;
-}
-
 
 /*ABOUT ME */
 .about{
@@ -223,31 +206,9 @@ a:active {
 
 /*Portfolio*/
 
-figure {
-    
-  display: inline-block;  
-  background-color: beige;
-  letter-spacing: 1px;
-  border-radius: 5px;
-  color: black;
-  font-family: 'Lora', serif;
-  text-align: center;
-  padding 1.5em;
-  width: 150px;
-}
-main{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-figure:hover {
-    background-color: #786D7F;
-}
 
 
 /* Contact Me*/
-
 
 .contact {
     color: black; 
@@ -259,11 +220,10 @@ figure:hover {
 }
 
 form {
-  background: beige;
-  border-radius: 40px 40px 40px 40px;
-  padding: .2em 1em 1.2em 2.5em ;
+  background: transaprent;
+  padding: 0 ;
   width: 50%;
-  margin: 50px auto;
+  margin: 500px auto;
   padding: 0px auto;
 
 }
@@ -273,7 +233,7 @@ input[type="text"] {
   border: line;
   border-radius: 5px;
   margin: 10px auto 1.5px auto;
-  width: 95%;
+  width: 100%;
   padding: .50em;  
          
 }
@@ -281,6 +241,7 @@ input[type="text"] {
 
 label {
   font-size: 1.5em;
+  text-align: left;
   letter-spacing: 3px;
   font-family: 'Lora', serif;
   margin: 0 auto;
@@ -304,6 +265,8 @@ input[type="submit"] {
 
 input:hover {
     background-color: lightblue;
+    padding: 1.5em;
+    transition: .2s;
 }
 
 * {
