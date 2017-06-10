@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro');
 
-/*---BACKGROUND IMAGE---*/
-body{
-      background-image: url(../img/Background/background-web.jpg);
 
-}
 /*---HEADER---*/
 
-header {
+body {
   background-image: url(../img/Background/background-web.jpg);
   background: cover;
   background-size: 100% 100%;
@@ -44,9 +40,10 @@ nav ul li {
 }
 
 nav ul li a {
-	font-size: .8em;
+	font-size: .9em;
     font-family: 'Source Sans Pro';
-    padding: 1em;
+    letter-spacing: 1.5px;
+    padding: .5em;
  	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -58,7 +55,7 @@ h2 {
     font-size: 2.8em;
     font-family: 'Lora', serif;
     font-weight: bold;
-    margin: 300px 0 0 0;
+    margin: 400px 0 0 0;
     color: black;
     padding: .5em;
     
@@ -75,7 +72,7 @@ transform: rotate(0deg);
     line-height: 0px;
     word-spacing: .5px;
 	text-align: center;
-	margin: 0px auto ;
+	margin: 0 auto ;
 	max-width:  950px;	
     padding: 1em; 
 }
@@ -109,42 +106,59 @@ transform: rotate(0deg);
 }
 
 
-}
+/*ABOUT ME */
 .about{
-  background-color: gray;
-  margin: 50px auto ;
+  background-color: transparent;
+  margin: 850px auto ;
    
 }
 
 
 h3 {
-    text-align: left;
-    letter-spacing: 3px;
+    text-align: Center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 4px;
     display: block;
-    flex-wrap: wrap;
     margin: 0px auto;
-    font-size: 1.5em;
-    padding: .2em;
-    
+    padding: 0;
 }
 
 
-p 	{
+.bio, p {
 	font-size: 1.2em;
     color: black;
     font-family: 'Lora', serif;
     letter-spacing: 1.5px;
     line-height: 25px;
-    word-spacing: .5px;
+    word-spacing: .8px;
 	text-align: left;
 	margin: 0px auto ;
-	max-width:  950px;	
+	max-width:  100em;	
     padding: 1em;
 }
 
+
+/*RESUME*/
+
 .resume {
-    padding: 5px;
-    margin: 0 auto 100px auto;
+    padding: 0px;
+    margin: -500px 0 0 0;
+}
+
+h4 {
+	font-size: 1.5em;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    word-spacing: .8px;
+	text-align: left;
+	margin: 0px auto ;
+	max-width:  100em;	
+    padding: 1em;
 }
 
 
