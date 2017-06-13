@@ -8,7 +8,7 @@ body {
   background: cover;
   background-size: 100% 100%;
   background-attachment: fixed;
-  height: 1250px;
+  height: 100%;
   width: 100%; 
 }
 
@@ -92,6 +92,7 @@ transform: rotate(0deg);
 /*ABOUT ME */
 .about{
   background-color: transparent;
+  color:;
   margin: 850px auto ;
    
 }
