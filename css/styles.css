@@ -3,13 +3,11 @@
 
 /*---HEADER---*/
 
+
+/* RANDOM BACKGROUND*/
+
 body {
   background-image: url(../img/Background/background-web.jpg);
-  background: cover;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%; 
 }
 
 header h1 {
@@ -75,6 +73,8 @@ transform: rotate(0deg);
 	margin: 0 auto ;
 	max-width:  950px;	
     padding: 1em; 
+	
+	transform: rotate(0deg);
 }
 
 /*---BOTTOM NAV
@@ -86,6 +86,41 @@ transform: rotate(0deg);
   height: 40px;
   background-color: black ;
 }---*/
+
+
+
+/*animation type home */
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+.written{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 250px auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-80%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
 
 
 
@@ -146,12 +181,80 @@ h4 {
 }
 
 
+/* Contact Me*/
+
+.contact {
+    color: black; 
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:center;
+    margin: 25px auto 0 auto;
+    padding: .5em;
+}
+
+form {
+  background: transaprent;
+  padding: 0 ;
+  width: 50%;
+  margin: 500px auto;
+  padding: 0px auto;
+
+}
+
+input[type="text"] {
+  background: white;
+  border: line;
+  border-radius: 5px;
+  margin: 10px auto 1.5px auto;
+  width: 100%;
+  padding: .5em;  
+         
+}
+
+label {
+  font-size: 1.5em;
+  text-align: left;
+  letter-spacing: 3px;
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+}
+
+
+input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  letter-spacing: 1.5px;
+
+  background: #78657F;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  display: block;
+  margin: 20px auto; 
+   
+}
+
+input:hover {
+    background-color: lightblue;
+    padding: 1.5em;
+    transition: .2s;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 a:link {
 	color: white;
 }
 
 a:visited {
-	color: white;
+	color: mediumpurple;
 }
 
 a:hover {
@@ -160,7 +263,7 @@ a:hover {
     transition: .2s;
 }
 
-h2:hover {
+.welcome-p:hover {
   transform: rotate(360deg);
   transition: transform 1s;
 }
@@ -203,75 +306,4 @@ a:active {
        content: "Desktop Size";
   }
 
-}
-
-/*Portfolio*/
-
-
-
-/* Contact Me*/
-
-.contact {
-    color: black; 
-    font-size: 1em;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align:center;
-    margin: 25px auto 0 auto;
-    padding: .5em;
-}
-
-form {
-  background: transaprent;
-  padding: 0 ;
-  width: 50%;
-  margin: 500px auto;
-  padding: 0px auto;
-
-}
-
-input[type="text"] {
-  background: white;
-  border: line;
-  border-radius: 5px;
-  margin: 10px auto 1.5px auto;
-  width: 100%;
-  padding: .5em;  
-         
-}
-
-
-label {
-  font-size: 1.5em;
-  text-align: left;
-  letter-spacing: 3px;
-  font-family: 'Lora', serif;
-  margin: 0 auto;
-}
-
-
-input[type="submit"] {
-  border: none;
-  border-radius: 5px;
-  padding: 15px;
-  letter-spacing: 1.5px;
-
-  background: #78657F;
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  display: block;
-  margin: 20px auto; 
-   
-}
-
-input:hover {
-    background-color: lightblue;
-    padding: 1.5em;
-    transition: .2s;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
