@@ -6,7 +6,6 @@
 
 /* animated background--https://codepen.io/kapz/pen/BwtDn*/
 
-
 #bg {
   
   width:100%;
@@ -14,7 +13,7 @@
   background:url(../img/images/r8.jpg);
   background-size:150% 150%;
   
-  //background-attachment:fixed;
+  //background-attachment:scroll;
   background-position:bottom;
   animation: animatedBackground 40s linear infinite;
   
@@ -151,7 +150,7 @@ transform: rotate(0deg);
 /*ABOUT ME */
 .about{
   background: url(../img/Background/handmadepaper/handmadepaper.png);
-  margin: 850px auto ;
+  margin: 0px auto ;
  padding: 5em;
    
 }
