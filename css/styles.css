@@ -130,15 +130,9 @@ transform: rotate(0deg);
 
 
 
-/*animation type home */
-/* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-
-
 /*ABOUT ME */
 .about{
-  background: url(../img/Background/handmadepaper/handmadepaper.png);
+  background: url(../img/Background/background-web.jpg);
   margin: 0px auto ;
  padding: 5em;
    
@@ -148,6 +142,7 @@ transform: rotate(0deg);
 h3 {
     text-align: Center;
     font-size: 2em;
+    color: whitesmoke;
     text-transform: uppercase;
     font-family: 'Source Sans Pro';
     letter-spacing: 4px;
@@ -159,7 +154,7 @@ h3 {
 
 .bio, p {
 	font-size: 1.2em;
-    color: black;
+    color: whitesmoke;
 	line-height: 55px;
     font-family: 'Lora', serif;
     letter-spacing: 1px;
@@ -174,8 +169,8 @@ h3 {
 
 /*RESUME*/
 
-.resume {
-	background: transaprent;
+.resume-bg {
+	background: url(../img/Background/black_paper/black_paper.png);
 	
     padding: 5em;
     margin: 0px auto;
@@ -183,7 +178,7 @@ h3 {
 
 h4 {
 	font-size: 1.5em;
-    color: black;
+    color: whitesmoke;
     font-family: 'Lora', serif;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -197,14 +192,18 @@ h4 {
 
 
 /* Contact Me*/
-
+.contact-bg{
+    background: url(../img/Background/background-web.jpg);
+    padding: .2em;
+}
 .contact {
+    
     color: black; 
     font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
     text-align:center;
     margin: 25px auto 0 auto;
-    padding: 2em;
+    padding: 1em;
 }
 
 form {
@@ -292,35 +291,3 @@ a:active {
 
 }
 
-/* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) { 
-
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-      background-image: url(/img/Background/paper_1/paper_1.png);
-       content: "Mobile Size";
-  }
-  
-}
-
-/* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
-
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-      background-image: url(/img/Background/paper_1/paper_1.png);
-       content: "Tablet Size";
-  }
-
-}
-
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-      background-image: url(/img/Background/paper_1/paper_1.png);
-       content: "Desktop Size";
-  }
-
-}
