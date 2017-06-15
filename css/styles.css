@@ -6,7 +6,7 @@
 
 /* animated background--https://codepen.io/kapz/pen/BwtDn*/
 
-#bg {
+#car-bg {
   
   width:100%;
   height:100vh;
@@ -18,18 +18,7 @@
   animation: animatedBackground 40s linear infinite;
   
   
-  .inside {
-   text-align:center; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiYmBgcGCAABiNAhwYcKmAcwACDAA2zAGDwEoD9wAAAABJRU5ErkJggg== ) repeat;
-    width:100%;
-    height:100%;
-    box-shadow:inset 0px 9000px 0px rgba(0,0,0,0.2);
-    display:flex;
-    align-items:center;
-    align-content:center;
-    justify-content:center;
-    
-      
-    }
+
 }
 
 @keyframes animatedBackground {
@@ -188,8 +177,8 @@ h3 {
 .resume {
 	background: transaprent;
 	
-    padding: 0px;
-    margin: -500px 0 0 0;
+    padding: 5em;
+    margin: 0px auto;
 }
 
 h4 {
@@ -215,14 +204,14 @@ h4 {
     font-family: 'Source Sans Pro', sans-serif;
     text-align:center;
     margin: 25px auto 0 auto;
-    padding: .5em;
+    padding: 2em;
 }
 
 form {
   background: transaprent;
   padding: 0 ;
   width: 50%;
-  margin: 500px auto;
+  margin: 450px auto;
   padding: 0px auto;
 
 }
