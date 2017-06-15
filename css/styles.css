@@ -118,7 +118,7 @@ h2 {
 transform: rotate(0deg);
 }
 
-/*---BOTTOM NAV
+/*---BOTTOM NAV---*/
 .bottom-nav {
   bottom: 0;
   left: 0;
@@ -126,13 +126,21 @@ transform: rotate(0deg);
   width: 100%;
   height: 40px;
   background-color: black ;
-}---*/
+}
+.nav-text{
+    color:whitesmoke;
+}
 
 
-
+section{
+     background: url(../img/Background/background-web.jpg);
+   
+    
+    
+}
 /*ABOUT ME */
 .about{
-  background: url(../img/Background/background-web.jpg);
+
   margin: 0px auto ;
  padding: 5em;
    
@@ -142,7 +150,7 @@ transform: rotate(0deg);
 h3 {
     text-align: Center;
     font-size: 2em;
-    color: whitesmoke;
+     color: black;
     text-transform: uppercase;
     font-family: 'Source Sans Pro';
     letter-spacing: 4px;
@@ -154,7 +162,7 @@ h3 {
 
 .bio, p {
 	font-size: 1.2em;
-    color: whitesmoke;
+     color: black;
 	line-height: 55px;
     font-family: 'Lora', serif;
     letter-spacing: 1px;
@@ -170,7 +178,7 @@ h3 {
 /*RESUME*/
 
 .resume-bg {
-	background: url(../img/Background/black_paper/black_paper.png);
+
 	
     padding: 5em;
     margin: 0px auto;
@@ -178,7 +186,7 @@ h3 {
 
 h4 {
 	font-size: 1.5em;
-    color: whitesmoke;
+    color: black;
     font-family: 'Lora', serif;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -193,11 +201,11 @@ h4 {
 
 /* Contact Me*/
 .contact-bg{
-    background: url(../img/Background/background-web.jpg);
+    background: url(../img/Background/handmadepaper/handmadepaper.png);
     padding: .2em;
 }
 .contact {
-    
+
     color: black; 
     font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
